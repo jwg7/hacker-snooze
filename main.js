@@ -57,10 +57,10 @@ let topList = async () => {
     let title = document.createElement("div");
     newItem.append(title);
     title.innerText = storyData.title;
-    // change css of title
+    // change css 
     title.style.fontSize = "24px";
     title.style.cursor = "pointer";
-    title.style.textDecoration = "underline";
+    title.style.textDecoration = "underline"; 
     // links title to url when clicked
     title.addEventListener("click", function () {
       window.location.href = storyData.url;
